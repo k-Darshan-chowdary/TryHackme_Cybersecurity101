@@ -4,3 +4,9 @@ Offensive Security Intro:-
 
 
 To simulate a hacker's actions to find vulnerabilities in a system you need to follow:- Offensive security
+
+
+(A Try out fake bank account was performed images posted in other offensive security images file)
+comands used:- gobuster -u http://fakebank.thm -w wordlist.txt dir
+
+
