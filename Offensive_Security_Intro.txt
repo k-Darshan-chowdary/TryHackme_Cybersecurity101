@@ -1,0 +1,6 @@
+Offensive Security Intro:-
+"To Outsmart a Hacker you have to Think like One"
+"Offensive Security" It involves breaking into computer systems, exploiting software bugs, and finding loopholes in applications to gain unauthorized access. The goal is to understand hacker tactics and enhance our system defences.
+
+
+To simulate a hacker's actions to find vulnerabilities in a system you need to follow:- Offensive security
