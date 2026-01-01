@@ -107,6 +107,78 @@ Android.Riskware.Agent.LHH
 
 
 
+CVE (Common Vulnerabilities and Exposures)
+
+-A standardized system for identifying security vulnerabilities.
+
+-Each vulnerability gets a unique ID (e.g., CVE-2024-29988).
+
+-Ensures consistent reference across researchers, vendors, and security teams.
+
+-Maintained by MITRE and searchable via the CVE Program website or the National Vulnerability Database (NVD).
+
+-Example: CVE-2014-0160 (Heartbleed).
+
+
+
+Exploit Database
+
+-A public repository of exploit code for known vulnerabilities.
+
+-Used mainly for authorized security testing (e.g., red teaming, penetration testing).
+
+-Some exploits are tested and labeled as verified.
+
+
+
+GitHub
+
+-Hosts tools, proof-of-concept (PoC), and exploit code related to CVEs.
+
+-Often used to find research code and demonstrations of vulnerabilities like Heartbleed.
+
+
+
+What utility does CVE-2024-3094 refer to?
+xz
+
+Techinical Documentation:-
+
+
+
+Linux Manual Pages (man pages)
+
+-Primary help system for Linux and Unix-like operating systems.
+
+-Every command typically has a man page explaining usage, options, and behavior.
+
+-Accessed using man <command> (e.g., man ip).
+
+-Covers commands, system calls, libraries, and configuration files.
+
+-Can also be viewed online via a web browser.
+
+
+
+Microsoft Windows Documentation
+
+-Microsoft provides official technical documentation for Windows commands and tools.
+
+-Examples include command references like ipconfig.
+
+-Serves as an authoritative source for Windows-related features and usage.
+
+
+
+Product Documentation
+
+-Popular software and tools maintain official documentation sites.
+
+-Examples: Snort, Apache HTTP Server, PHP, and Node.js.
+
+-Provides accurate, complete, and up-to-date information about features and configuration.
+
+
 
 
 
