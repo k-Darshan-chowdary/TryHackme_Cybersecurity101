@@ -47,6 +47,66 @@ What phrase does the Linux command ss stand for?
 socket statistics
 
 
+Shodan
+
+-Search engine for Internet-connected devices.
+
+-Finds servers, routers, IoT devices, industrial control systems, etc.
+
+-Useful for identifying specific software versions (e.g., Apache 2.4.1) and their geographic distribution.
+
+-Offers query examples and trend analysis (with subscription).
+
+
+
+Censys
+
+-Focuses on Internet assets rather than devices.
+
+-Indexes hosts, websites, certificates, domains, open ports, and services.
+
+-Commonly used for asset discovery, security auditing, and identifying rogue or exposed systems.
+
+-Similar to Shodan but more oriented toward web infrastructure and certificates.
+
+
+
+VirusTotal
+
+-Multi-engine malware scanning platform.
+
+-Scans files, URLs, or hashes using dozens of antivirus engines.
+
+-Includes community comments for deeper analysis and context on detections.
+
+-Helps verify whether files are malicious or false positives.
+
+
+
+Have I Been Pwned (HIBP)
+
+-Checks whether an email address appears in known data breaches.
+
+-Highlights risks of password reuse and exposed personal information.
+
+-Useful for personal security awareness and breach monitoring.
+
+
+
+
+What is the top country with lighttpd servers?
+
+United States
+
+
+
+
+What does BitDefenderFalx detect the file with the hash 2de70ca737c1f4602517c555ddd54165432cf231ffc0e21fb2e23b9dd14e7fb4 as?
+
+Android.Riskware.Agent.LHH
+
+
+
 
 
 
