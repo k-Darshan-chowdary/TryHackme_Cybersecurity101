@@ -77,3 +77,22 @@ These commands allow you to view, filter, and kill running processes directly fr
 
 
 
+Additional useful commands (not beginner-focused):
+
+-[chkdsk] → Checks disk and file system for errors.
+
+-[driverquery] → Lists installed device drivers.
+
+-[sfc /scannow] → Scans and repairs corrupted system files.
+
+-[/?] → Displays help page for most commands.
+
+Using more:
+
+-[more file.txt] → Display a text file page by page.
+
+-[some_command | more] → Pipe long output to view it page by page.
+
+Key takeaway: You can now view help pages for commands and handle long outputs efficiently.
+
+
