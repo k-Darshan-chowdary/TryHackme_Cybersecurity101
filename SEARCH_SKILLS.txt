@@ -179,6 +179,22 @@ Product Documentation
 -Provides accurate, complete, and up-to-date information about features and configuration.
 
 
+What does the Linux command cat stand for?
+concatenate
+
+
+What is the netstat parameter in MS Windows that displays the executable associated with each active connection and listening port?
+-b
+
+
+
+Social Media:-
+
+Social media is both a valuable resource and a security risk. Cybersecurity professionals can use it to gather information, stay updated on trends, and learn about new technologies. However, oversharing personal details on social platforms can expose users to attacks like password resets and social engineering. Exploring platforms with temporary accounts helps protect privacy. Following trusted cybersecurity channels and news outlets supports continuous learning while minimizing risk.
+
+
+
+
 
 
 
