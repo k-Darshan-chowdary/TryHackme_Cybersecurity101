@@ -1,1 +1,79 @@
+INTRODUCTION:-
 GUIs are easier for beginners, but CLIs become faster and more efficient once mastered. Command-line interfaces reduce reliance on the mouse, save time, and allow quick repetition of tasks. They also use fewer system resources, support easy automation through scripts, and enable efficient remote management via tools like SSH. The goal is to learn Windows Command Prompt (cmd.exe) to view system information, troubleshoot networks, manage files, and monitor running processes.
+
+
+BASIC SYSTEM INFORMATION:-
+Windows commands run from directories listed in the system PATH, which can be viewed using the set command. The ver command displays the Windows OS version, while systeminfo provides detailed system information such as OS details, hardware, processor, and memory. Long command outputs can be viewed page by page by piping them through more, and exited with CTRL + C. Useful basic commands include help for command guidance and cls to clear the screen.
+
+
+NETWORK TROUBLESHOOTING:-
+Windows CLI provides powerful networking tools for viewing and troubleshooting network activity.
+
+-[ipconfig] shows basic network details like IP address, subnet mask, and gateway, while ipconfig /all displays extended information such as DNS servers and DHCP status.
+
+-[ping] checks connectivity to a target and measures response time.
+
+-[tracert] traces the route packets take to reach a destination, showing intermediate routers.
+
+-[nslookup] resolves domain names to IP addresses using a chosen DNS server.
+
+-[netstat] displays active connections and listening ports, and advanced options (-a -b -o -n) reveal all connections, associated programs, process IDs, and numeric addresses for deeper analysis.
+
+FILE AND DISK MANAGEMENT:-
+Directory commands
+
+-[cd] → Shows current directory (no arguments) or moves to a target directory
+
+-[cd ..] → Moves up one directory level
+
+-[dir] → Lists files and subdirectories
+
+----[dir /a] → Shows hidden/system files
+
+----[dir /s] → Shows files in all subdirectories
+
+-[tree] → Displays directory structure in a tree format
+
+-[mkdir <name>] → Creates a directory
+
+-[rmdir <name>] → Deletes a directory
+
+
+
+File commands
+
+-[type <file>] → Displays contents of a text file
+
+-[more] → Views long text output page by page
+
+-[copy <source> <destination>] → Copies files
+
+-[move <source> <destination>] → Moves files
+
+-[del / erase] → Deletes files
+
+
+
+
+Wildcard
+
+-[*] → Refers to multiple files (e.g., copy *.md C:\Markdown)
+
+
+
+TASK AND PROCESS MANAGEMENT:-
+
+-[tasklist] → Displays all running processes (similar to Task Manager)
+
+-[tasklist /?] → Shows help and available filtering options
+
+-[tasklist /FI "imagename eq <process>.exe"] → Filters processes by name
+
+----Example: tasklist /FI "imagename eq sshd.exe"
+
+-[taskkill /PID <pid>] → Terminates a process using its Process ID
+
+These commands allow you to view, filter, and kill running processes directly from the command line.
+
+
+
