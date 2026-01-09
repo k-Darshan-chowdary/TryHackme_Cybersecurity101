@@ -440,6 +440,74 @@ Get-ChildItem | Where-Object -Property Length -gt 100
 
 
 
+PowerShell System & Network Enumeration:-
+
+PowerShell provides powerful cmdlets that return structured objects, making system administration, automation, and security analysis more efficient than traditional command-line tools.
+
+
+Get-ComputerInfo
+Retrieves detailed system information such as OS version, build, hardware, BIOS, and installation details. It provides a complete system snapshot and is more comprehensive than the legacy systeminfo command.
+
+Get-LocalUser
+Lists all local user accounts on the machine, showing usernames, account status (enabled/disabled), and descriptions. This cmdlet is essential for identifying active users and detecting suspicious or hidden accounts.
+
+Get-NetIPConfiguration
+Displays network interface configuration, including IP addresses, default gateways, and DNS servers. It serves as a modern alternative to ipconfig with more readable and structured output.
+
+Get-NetIPAddress
+Shows all IP addresses configured on the system, including IPv4, IPv6, loopback, and inactive addresses. Useful for detailed network analysis and troubleshooting.
+
+These cmdlets allow administrators and security analysts to quickly gather system, user, and network information directly from the command line.
+
+
+
+q} Other than the current user and the default Administrator account, what other user is enabled on the target machine?
+p1r4t3
+
+Q} What motto has this hidden user set as their account description?
+A merry life and a short one.
+
+q} What hidden treasure can be found inside this user’s home directory in C:\Users?
+THM{p34rlInAsh3ll}
+
+
+
+
+
+PowerShell Dynamic System & Security Enumeration:-
+For monitoring live system activity, PowerShell provides cmdlets that expose running processes, services, network connections, and file integrity details. These are especially useful for troubleshooting, incident response, and threat hunting.
+
+
+Get-Process
+Displays all running processes along with CPU usage, memory consumption, and process IDs. Commonly used to detect suspicious or resource-heavy processes.
+
+Get-Service
+Lists services on the system and their current status (Running, Stopped, Paused). Useful for identifying malicious or tampered services during forensic investigations.
+
+Get-NetTCPConnection
+Shows active TCP connections, including local/remote addresses, ports, connection state, and the process responsible for the connection. Critical for detecting backdoors and unauthorized network activity.
+
+Get-FileHash
+Generates cryptographic hashes (e.g., SHA256) for files. Used to verify file integrity and detect tampering or malware.
+
+Get-Item -Stream
+Reveals Alternate Data Streams (ADS) attached to NTFS files. ADS can be abused to hide malicious data without affecting the main file contents.
+
+Together, these cmdlets provide real-time visibility into system behavior and are essential tools for security analysts and incident responders.
+
+
+
+Questions
+
+q} What is the hash of the file containing the hidden treasure found earlier?
+71FC5EC11C2497A32F8F08E61399687D90ABE6E204D2964DF589543A613F3E08
+
+Q} Which property returned by Get-NetTCPConnection identifies the process that initiated the connection?
+OwningProcess
+
+Q} A critical service was tampered with and its DisplayName modified to match the attacker’s motto. What is the service name?
+p1r4t3-s-compass
+
 
 
 
